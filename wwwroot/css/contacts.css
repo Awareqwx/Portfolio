@@ -1,0 +1,15 @@
+#contacts{
+    background: lightgrey;
+    background: -webkit-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -o-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -moz-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    text-align: left;
+}
+
+li{
+    margin: 5px;
+}

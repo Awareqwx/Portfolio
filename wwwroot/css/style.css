@@ -1,0 +1,164 @@
+body{
+    font-family: arial;
+    margin: 0;
+}
+#header{
+    background-color: lightgray;
+    font-style: bold;
+    height: 60px;
+}
+
+#header h1{
+    display: inline-block;
+    margin: 10px;
+}
+
+#headerlinks{
+    text-align: right;
+    float: right;
+    padding-right: 30px;
+    vertical-align: middle;
+}
+
+#headerlinks a{
+    text-decoration: none;
+    color: black;
+}
+
+#wrapper{
+    background: rgb(0, 104, 47);
+    background: -webkit-radial-gradient(rgb(0, 80, 27), black);
+    background: -o-radial-gradient(rgb(0, 80, 27), black);
+    background: -moz-radial-gradient(rgb(0, 80, 27), black);
+    background: radial-gradient(rgb(0, 80, 27), black);
+    text-align: center;
+    margin: 0px;
+    min-height: 845px;
+}
+
+#profpic{
+    display: inline-block;
+    border: 5px solid lightgray;
+    margin: 20px;
+}
+
+#profpic img{
+    height: 270px;
+    width: 402px;
+    vertical-align: top;
+}
+
+#about{
+    background: lightgrey;
+    background: -webkit-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -o-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -moz-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    display: inline-block;
+    vertical-align: top;
+    width: 450px;
+    margin-top: 20px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+#about p, #about a{
+    margin: 15px;
+}
+
+.subheader{
+    background: gray; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(lightgray, rgb(133, 150, 143), lightgray); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgray, rgb(133, 150, 143), lightgray); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgray, rgb(133, 150, 143), lightgray); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgray, rgb(133, 150, 143), lightgray); /* Standard syntax */
+    height: 40px;
+    margin: 0;
+    color: white;
+}
+
+.subheader *{
+    line-height: 40px;
+    margin: 0;
+    margin-left: 5px;
+}
+
+.homeproj{
+    width: 270px;
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+    background: lightgrey;
+    background: -webkit-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -o-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -moz-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+}
+
+.homeproj img{
+    width: 270px;
+    height: 150px;
+}
+
+.homeproj p{
+    height: 200px;
+    margin: 10px;
+    text-align: left;
+}
+
+.techbox{
+    text-align: left;
+}
+
+.techbox img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.buttonwrapper{
+    width: 100%;
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    margin-bottom: 10px;
+    width: auto;
+    background-color: #17884A;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.button p{
+    height: auto;
+    color: white;
+    margin: 5px;
+}
+
+#footer{
+    background-color: lightgray;
+    text-align: center;
+    display: block;
+    margin: 0px;
+}
+
+#footer p{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+}
+
+#footer a{
+    font-style: italic;
+    color: black;
+}
+
+#footercontacts{
+    margin-bottom: 0px;
+}
+
+#footercontacts img{
+    width: 20px;
+    height: 20px;
+}

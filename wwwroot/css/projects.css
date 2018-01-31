@@ -1,0 +1,29 @@
+#deployed, #repos{
+    background: lightgrey;
+    background: -webkit-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -o-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: -moz-linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    background: linear-gradient(90deg, lightgrey, rgb(120, 143, 132));
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#deployed p, #deployed a{
+    margin: 20px;
+}
+
+#deployed li{
+    margin: 5px;
+}
+
+#repos a{
+    text-decoration: none;
+}
+
+.repoimg{
+    width:50px;
+    display: inline-block;
+    vertical-align: middle;
+}
